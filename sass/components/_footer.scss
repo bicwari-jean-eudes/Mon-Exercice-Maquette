@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+
+// body{
+//   background-color:#33264E;
+//   // height: 100vh;
+// }
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+   width: 1200px;
+   height: 200px;
+  // border-bottom:white solid 1px
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+}
+
+
+// .caractère-footer h1 {
+//   width: 1200px;
+//     position: absolute;
+//     left: 270px;
+//     color: white;
+//     top: 2370px;
+//     font-family: "Vampiro One";
+//     font-size: 64px;
+//     margin-bottom: 9rem;
+//     margin-top: 9rem;
+//     width: 100%;
+//     // display: flex;
+//     // justify-content: center;
+//     // margin-bottom: 2rem;
+//     // justify-content: right;
+//     // height: 100px;
+//     // max-width: 300px;
+//     // margin: 30px;
+
+// }
+// .footer-left{
+//   width: 800px;
+//   margin-right: 3rem;
+//   margin-left: 3rem;
+//   width: 100%;
+
+//     justify-content: center;
+//     margin-bottom: 2rem;
+//     box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+//     display: flex;
+//     align-items: center;
+// }
+.footer-left {
+  /* width: 800px; */
+  margin-right: 3rem;
+  margin-left: 3rem;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  /* display: flex; */
+  /* align-items: center; */
+  max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+img-icons-footer {
+  /* position: relative; */
+  margin: 20px;
+  /* justify-content: center; */
+  /* display: inline-flex; */
+  left: -37%;
+  width: 100%;
+}
+
+// .img-icons-footer{
+//   position: relative;
+//   margin: 20px;
+//   justify-content: center;
+//   display: inline-flex;
+//   left: -37%;
+//   width: 100%;
+//     // display: flex;
+//     // justify-content: center;
+//     // margin-bottom: 2rem;
+//     // box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+// }
+
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left:19% ;
+}
+
+.brand{
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+
+
+
+
+
+
+
+.footer-description{
+  width:60%;
+  margin-left:1.5rem;
+  padding:1rem;
+  font-family:font-family(titre);
+  display: flex;
+  align-items: center;
+
+  }
+  .footer-description p{
+     font-family:font-family(texte);
+    font-size:.8rem;
+    // color:color(text);
+    line-height:16px;
+    margin-top:1rem;
+    width: 60%;
+    margin-left: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+    }
+    h2{
+      font-family:"Playfair Display";
+ font-size: 16px;
+    }
+
+
+
+
+
+.logo-footer{
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30%;
+}
+// .caractère{
+//   width: 60%;
+// }
+.logo2f{
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 10%;
+}
+// .photo{
+//   padding-top: 20px;
+//   width: 1600px;
+//   height: 480px;
+// margin-left: 200px;
+
+//   background:url("image12/photo2.jpg");
+//   background-size: cover;
+
+// }
+// #photo1{
+//   object-fit: cover;
+//   width: 1600px;
+//   height: 480px;
+//   margin-left: 200px;
+// }
+
+
+#submit-btn{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: magenta;
+  left: 800px;
+  color: white;
+  top: 600px;
+  font-style: italic;
+  font-size: 24px;
+}
+// .caractère-footer h1{
+//   position: absolute;
+//   left: 830px;
+//   color: white;
+//    top: 30px;
+//    font-family:"Vampiro One";
+//    font-size: 64px;
+//  }
+.texte1f{
+  // position: absolute;
+  left: 980px;
+  top:2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+.texte2f{
+  // position: absolute;
+  left: 1040px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+.texte3f{
+  // position: absolute;
+  left: 1110px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+.texte4f{
+  // position: absolute;
+  left: 1180px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+// .fa-facebook{
+// position: absolute;
+// left: 380px;
+// top: 60px;
+// width: 30px;
+// height: 30px;
+// border-radius: 100%;
+// background-color: magenta;
+// color: white;
+// }
+// .fa-tumblr{
+//   position: absolute;
+//   left: 420px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-instagram{
+//   position: absolute;
+//   left: 460px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-pinterest{
+//   position: absolute;
+//   left: 500px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-reddit{
+//   position: absolute;
+//   left: 1500px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+.Subscribe {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  // cursor: pointer;
+  display: inline-flex;
+   padding: 15px 20px;
+  border: none;
+
+
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+.Subscribe p{
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  // cursor: pointer;
+  display: inline-flex;
+   padding: 15px 20px;
+  border: none;
+
+
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+// .fa-facebook {
+//   position: absolute;
+//   left: 489px;
+//   top: 2505px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-tumblr {
+//   position: absolute;
+//   left: 521px;
+//   top: 2505px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-instagram {
+//   position: absolute;
+//   left: 555px;
+//   top: 2505px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+
+// .fa-pinterest {
+//   position: absolute;
+//   left: 590px;
+//   top: 2505px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+
+// .Article-footer{
+//   width:100%;
+//   display:flex;
+//   justify-content:center;
+//   background:color(bg-article);
+//   margin-bottom:2rem;
+//   margin-right: 70rem;
+//   box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
+
+//   }
+   .footer-description{
+     margin: auto;
+     display: flex;
+     margin-top: 8rem;
+     width: 1200px;
+   }
+
+   Article-footer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background: color(bg-article);
+    /* margin-bottom: 2rem; */
+
+    /* margin-right: 70rem; */
+    float: left;
+   }
+   .footer-description {
+    // margin: auto;
+    // display: flex;
+    // margin-top: 8rem;
+    // width: 1200px;
+    float: right;
+}
+
+
+.footer-description {
+  /* width: 70%; */
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
+.caractère-footer {
+  /* width: 1200px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* justify-content: right; */
+  height: 150px;
+  margin: 20px;
+  background-color:#362953 ;
+}
+.caractère-footer h1 {
+  width: 1200px;
+  position: absolute;
+  left: 230px;
+  color: white;
+  top: 2300px;
+  font-family: "Vampiro One";
+  font-size: 64px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+  width: 100%;
+}
+.footer-left{
+  display: flex;
+  align-items:center ;
+  justify-content: left;
+  padding: 0 25px;
+}
+
+ .caractère-footer {
+   background: #362953;
+   margin: 0 auto;
+ }
+
+.footer-navigation {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links {
+  margin-bottom: 0;
+}
+
+.nav-links .nav-items {
+  margin-right: 6rem;
+}
+
+.nav-links a {
+  padding: 0 .5rem;
+}
+.footer-contact {
+  // max-width: 1200px;
+  // margin: 2rem auto;
+  // padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+h4{
+
+    font-family: "Playfair Display";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+}
+.footer-left .img-icons-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.left-contact .contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.icon-f{
+  margin: 0 1rem 1rem 0;
+}

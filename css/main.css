@@ -1,13 +1,557 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+body {
+  background-color: #33264E;
+  place-items: center;
+}
+
+.articles-section {
+  margin: auto;
+  display: flex;
+  margin-top: 8rem;
+  width: 1200px;
+}
+
+.left-container {
+  width: 800px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.article-description h1 {
+  font-family: "Playfair Display";
+  font-size: 30px;
+}
+
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.Article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  margin-bottom: 2rem;
+  margin-right: 70rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.article-photo {
+  width: 40%;
+  object-fit: cover;
+}
+
+/*============ . 1 article =texte===========*/
+/*============ . 1 article =texte===========*/
+.img-icons img {
+  object-fit: cover;
+  /* border: 1px solid rgb(29, 21, 21);*/
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  display: inline-flex;
+  left: 65%;
+}
+
+.img-writer img {
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px 10px 4px 8px;
+}
+
+.article-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
+p {
+  font-family: font-family(texte);
+  font-size: 0.8rem;
+  line-height: 16px;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 16px;
+}
+
+.img img {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.img-writer img {
+  object-fit: cover;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.article-description .writer-img {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 25px;
+  height: values(height-image);
+}
+
+/*============ . circle Section ============*/
+.date {
+  display: inline-flex;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+button {
+  display: inline-flex;
+  padding: 16px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FF7E8E;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: #FF6071;
+  border: 1px solid;
+  border: #1d1515;
+  position: relative;
+  margin: 16px;
+  justify-content: center;
+  left: 65%;
+}
+
+/*============ . Blogs Article ============*/
+/*============ . Blogs Article Right============*/
+.right-container {
+  width: 40%;
+  margin-left: 3rem;
+  height: 130px;
+}
+
+/*========= . Blogs recents-post Right==========*/
+.Recent-Posts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  justify-content: right;
+  max-width: 300px;
+  margin: 30px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  z-index: 11;
+}
+
+.Posts-photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/*========= . Blogs ligne+circle  Right==========*/
+/*========= . Blogs recents-post1 Right==========*/
+.Post-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Post-description p {
+  font-family: "Muli";
+  font-size: 0.8rem;
+  color: color(texte);
+  line-height: 16px;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+/*============ . Blogs social profiles ============*/
+.Social-Profiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background:color(bg-article);*/
+  margin-bottom: 2rem;
+  justify-content: right;
+  /*height: 370px;*/
+  max-width: 300px;
+  margin: 30px;
+  /*border-radius: 25px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
+  top: 50%;
+    color: #0d0925;
+    z-index: 11;*/
+  /*-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+}
+
+/*============ . Blogs social twitter ============*/
+.icon1 {
+  padding: 30px 25px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook1::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.Twitter-texte {
+  width: 75%;
+  background: #63cdf1;
+  /* display: flex; */
+  align-items: center;
+}
+
+.img-icons1 {
+  width: 30%;
+  /* object-fit: cover; */
+  height: 30px;
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.Twitter-texte {
+  width: 100%;
+  /*margin-right:1.5rem;
+  padding:1rem;*/
+  background: #63cdf1;
+}
+
+/*======= . Blogs social facebook ==========*/
+.Facebook-texte {
+  background: #507cbe;
+  width: 100%;
+}
+
+/*============ . Blogs social instagram ============*/
+.Instagram-texte {
+  background: #d62976;
+  width: 100%;
+}
+
+.Pinterest-texte {
+  background: #ee3e52;
+}
+
+.Social-Profiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  justify-content: right;
+  height: 100px;
+  max-width: 300px;
+  margin: 30px;
+}
+
+/*============ . Blogs Categorie bubulles ============*/
+.Posts-photo img {
+  object-fit: cover;
+}
+
+.writer1 h3 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: -0.33em;
+  margin-block-end: -0.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.Posts-photo img {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+
+.writer1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Post-description {
+  width: 60%;
+  margin-left: -0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Article-x {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  margin-bottom: 2rem;
+  margin-right: 70rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.article-photo-x {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-icons1 {
+  width: 30%;
+  /* object-fit: cover; */
+  height: 50px;
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  position: relative;
+  margin: 20px;
+  /* justify-content: center; */
+  left: 65%;
+}
+
+.icon1 {
+  place-items: center;
+  /* font-family: "Font Awesome 5 Free"; */
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+
+/*============ . circle Section ============*/
+.article-description h2::before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #27CC81;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin: 2px 8px 2px 0;
+}
+
+/*============ . circle Section ============*/
+.writer-x h5::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #ee3e52;
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left: 0.8rem;
+  margin: 2px 10px 4px 8px;
+}
+
+/*============ . circle Section ============*/
+h3::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #EE3E52;
+  display: inline-block;
+  transform: rotate(45deg);
+  margin: 2px 8px 2px 0;
+}
+
+/*============ . circle Section ============*/
+/*============ . Blogs Categorie bubulles ============*/
+.Cat-1 h6::before {
+  background-color: #673AB7;
+}
+
+.Cat-2 h6::before {
+  background-color: #5567da;
+}
+
+.Cat-3 h6::before {
+  background-color: #1e88e5;
+  display: inline-block;
+}
+
+.Cat-4 h6::before {
+  background-color: #27CC81;
+}
+
+.Cat-5 h6::before {
+  background-color: #38c4d1;
+}
+
+.Cat-6 h6::before {
+  background-color: #e91e63;
+}
+
+.Section-Categories h6::before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  margin: 0 8px 2px 0;
+  font-family: "Muli";
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.Article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.Section-Categories {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #33264E;
+  margin-bottom: 2rem;
+  /*height: 370px;*/
+  max-width: 300px;
+  margin: 30px;
+}
+
+.category.Cat-1 h6::before {
+  background-color: #673AB7;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+.category.Cat-2 h6::before {
+  background-color: #5567da;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+.category.Cat-3 h6::before {
+  background-color: #1e88e5;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+.category.Cat-4 h6::before {
+  background-color: #27cc81;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+.category.Cat-6 h6::before {
+  background-color: #e91e63;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+.category.Cat-5 h6::before {
+  background-color: #38c4d1;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 2px 8px 2px 0;
+  font-family: "Muli";
+}
+
+h4::after {
+  content: "";
+  width: 170px;
+  border-top: 1px solid #EE3E52;
+  margin-left: 5.8rem;
+  display: flex;
+  align-content: center;
+}
+
+.writer-x {
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #33264E;
-  height: 100vh;
 }
 
 .header {
@@ -26,10 +570,6 @@ body {
   width: 30%;
 }
 
-.caractère {
-  width: 60%;
-}
-
 .logo2 {
   display: flex;
   text-align: center;
@@ -37,19 +577,12 @@ body {
   width: 10%;
 }
 
-.photo {
-  padding-top: 20px;
-  width: 1600px;
-  height: 480px;
-  padding-left: 120px;
-  background: url("image12/photo2.jpg");
-  background-size: cover;
-}
-
 #photo1 {
+  padding-top: 20px;
   object-fit: cover;
   width: 1600px;
   height: 480px;
+  margin-left: 100px;
 }
 
 #photo4 {
@@ -77,7 +610,8 @@ body {
   left: 880px;
   background: magenta;
   top: 520px;
-  border-radius: 100%;
+  transform: rotate(45deg);
+  margin: 2px 8px 2px 0;
 }
 
 #point {
@@ -85,7 +619,7 @@ body {
   left: 835px;
   width: 10px;
   height: 10px;
-  background: green;
+  background: #27CC81;
   border-radius: 100%;
   top: 353px;
 }
@@ -129,7 +663,7 @@ body {
   font-size: 24px;
 }
 
-h1 {
+.caractère h1 {
   position: absolute;
   left: 830px;
   color: white;
@@ -166,9 +700,20 @@ h1 {
   color: white;
 }
 
+.fa-reddit {
+  position: absolute;
+  left: 1350px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
 .fa-facebook {
   position: absolute;
-  left: 380px;
+  left: 489px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -179,7 +724,7 @@ h1 {
 
 .fa-tumblr {
   position: absolute;
-  left: 420px;
+  left: 521px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -190,7 +735,7 @@ h1 {
 
 .fa-instagram {
   position: absolute;
-  left: 460px;
+  left: 555px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -201,7 +746,7 @@ h1 {
 
 .fa-pinterest {
   position: absolute;
-  left: 500px;
+  left: 590px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -210,15 +755,341 @@ h1 {
   color: white;
 }
 
-.fa-reddit {
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1200px;
+  height: 200px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+}
+
+.footer-left {
+  /* width: 800px; */
+  margin-right: 3rem;
+  margin-left: 3rem;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  /* display: flex; */
+  /* align-items: center; */
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+img-icons-footer {
+  /* position: relative; */
+  margin: 20px;
+  /* justify-content: center; */
+  /* display: inline-flex; */
+  left: -37%;
+  width: 100%;
+}
+
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 19%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.footer-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+  display: flex;
+  align-items: center;
+}
+
+.footer-description p {
+  font-family: font-family(texte);
+  font-size: 0.8rem;
+  line-height: 16px;
+  margin-top: 1rem;
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 16px;
+}
+
+.logo-footer {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.logo2f {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 10%;
+}
+
+#submit-btn {
   position: absolute;
-  left: 1500px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
+  width: 200px;
+  height: 40px;
   background-color: magenta;
+  left: 800px;
   color: white;
+  top: 600px;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.texte1f {
+  left: 980px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+
+.texte2f {
+  left: 1040px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+
+.texte3f {
+  left: 1110px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+
+.texte4f {
+  left: 1180px;
+  top: 2410px;
+  color: white;
+  margin: 20px 20px 20px 0;
+}
+
+.Subscribe {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.Subscribe p {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.footer-description {
+  margin: auto;
+  display: flex;
+  margin-top: 8rem;
+  width: 1200px;
+}
+
+Article-footer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  /* margin-bottom: 2rem; */
+  /* margin-right: 70rem; */
+  float: left;
+}
+
+.footer-description {
+  float: right;
+}
+
+.footer-description {
+  /* width: 70%; */
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
+.caractère-footer {
+  /* width: 1200px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* justify-content: right; */
+  height: 150px;
+  margin: 20px;
+  background-color: #362953;
+}
+
+.caractère-footer h1 {
+  width: 1200px;
+  position: absolute;
+  left: 230px;
+  color: white;
+  top: 2300px;
+  font-family: "Vampiro One";
+  font-size: 64px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 25px;
+}
+
+.caractère-footer {
+  background: #362953;
+  margin: 0 auto;
+}
+
+.footer-navigation {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-links {
+  margin-bottom: 0;
+}
+
+.nav-links .nav-items {
+  margin-right: 6rem;
+}
+
+.nav-links a {
+  padding: 0 0.5rem;
+}
+
+.footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer-left .img-icons-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.left-contact .contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.icon-f {
+  margin: 0 1rem 1rem 0;
+}
+
+.main-container {
+  width: values(width-container);
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

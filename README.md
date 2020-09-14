@@ -1,1 +1,0 @@
-# Mon-Exercice-Maquette
