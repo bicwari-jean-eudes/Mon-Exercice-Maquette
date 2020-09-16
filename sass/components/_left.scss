@@ -73,6 +73,13 @@ body{
     font-size: 1.5em;
     color:#EE3E52 ;
   }
+
+  .share::before {
+    content: '\f086';
+    font-size: 1.5em;
+    color:#EE3E52 ;
+  }
+
   .Article{
     width:100%;
     display:flex;
