@@ -1,0 +1,468 @@
+
+/*============ .ICONS header==========*/
+.header-left-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 36%;
+
+}
+.btn-circle{
+  border-radius: 100%;
+  background-color:rgba(252, 56, 56, 0.3);
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+
+}
+
+.btn-circle:hover{
+  // animation: pulse 2s infinite;
+  animation: 3s linear 1s infinite running slidein;
+}
+
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 55%;
+}
+
+/*============ .ICONS brand==========*/
+.brand{
+  font-family: "Font Awesome 5 Brands";
+  }
+/*============ .ICONS social=header=========*/
+
+.facebook::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+.twitter::before {
+  content: '\f09a';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+.instagram::before {
+  content: '\f39e';
+  font-size: 1.5em;
+   color:#EE3E52 ;
+}
+.pinterest::before {
+  // content: '\f39e';
+  font-size: 1.5em;
+   color:#EE3E52 ;
+}
+.pinterest::before{
+   content:'\f0d2';
+  font-size: 1.5em;
+   color:#EE3E52 ;
+}
+
+
+/*============ .ICONS left==========*/
+
+
+
+/*============ .ICONS search==========*/
+.search::before{
+  content:'\f002';
+  font-size: 1.5em;
+  color: #EE3E52;
+  }
+
+
+
+  /*============ .  icon  bloc article left============*/
+
+  .comment::before{
+  content:'\f086';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+
+  }
+
+  // content:'\f4ad';
+  .share::before{
+  content:'\f1e0';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+       }
+
+/*============ .  icon  social profies right============*/
+
+.img-icons1 {
+  width: 30%;
+  height: 30px;
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  position: relative;
+  /* margin: 20px; */
+  justify-content: center;
+  left: 10%;
+  /* top: 8%; */
+  bottom: 76px;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 10rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+  text-align: end;
+}
+
+/*============ .ICONS twitter=right=========*/
+
+.fa-twitter::before {
+  content: "\f099";
+  // color: #63CDF1;
+}
+/*============ .ICONS facebook==========*/
+.facebook1::before {
+  // content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+  // color: #507CBE;
+}
+/*============ .ICONS instagram=right=========*/
+.fa-instagram:before {
+  content: "\f16d";
+  // color:#EE3E52 ;
+
+ }
+ .icon-I {
+
+   color:#EE3E52 ;
+ }
+ .icon-F {
+
+  color:#507CBE ;
+}
+
+
+
+
+
+
+
+/*============ .ICONS footer=========*/
+
+  .contact{
+  	max-width: value(width-container);
+ 	margin: 2rem auto;
+  	padding: 0 2rem;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-bottom: 3rem;
+
+ 	i{
+ 		font-size: 1.5rem;
+ 		padding: 1rem;
+ 		font-family: "Fontawesome" !important;
+ 		font-style: normal;
+
+ 	}
+/*============ .ICONS twitter==========*/
+
+	&-twitter{
+ 		color: color-icon(twitter);
+   }
+
+
+   .contact-twitter {
+    color:colors(resTwitter);
+    margin: 10px;
+   }
+
+  .icon-T {
+    margin: 0 1rem 1rem 0;
+  }
+
+   /*============ .ICONS facebook==========*/
+ 	&-facebook{
+ 		color: color-icon(facebook);
+   }
+
+  .contact-facebook {
+
+     color:colors(resFacebook);
+   margin: 10px;
+   }
+
+  .icon-F {
+    margin: 0 1rem 1rem 0;
+  }
+  .contact-pinterest {
+
+    color:colors(resPinterest);
+     margin: 10px;
+    //  color: #EE3E52;
+   }
+
+
+.contact-facebook {
+  color: #507CBE;
+}
+
+   /*============ .ICONS instagram==========*/
+ 	&-instagram{
+ 		color: color-icon(instagram);
+   }
+
+
+
+   .contact-instagram {
+     color: #D62976;
+   }
+
+   .contact-instagram {
+     color: #D62976;
+      color:colors(resInstagram);
+      margin: 10px;
+   }
+
+
+
+
+    .icon-I {
+      margin: 0 1rem 1rem 0;
+    }
+
+   /*============ .ICONS pinterest==========*/
+ 	&-pinterest{
+ 		color: color-icon(pinterest);
+   }
+
+
+
+  }
+
+.line-left{
+   font-family: "Playfair Display";
+     font-size: 1.5rem;
+     font-weight: 800;
+     color: #fff;
+     margin-bottom: 1rem;
+     letter-spacing: .1rem;
+ }
+ .line_left h4::after {
+ content: "";
+   width: 9rem;
+   height: 2px;
+   background-color: #EE3E52;
+   display: inline-block;
+   margin-left: .5rem;
+   margin-bottom: 0.3rem;
+ }
+.contact i {
+   font-size: 1.5rem;
+   padding: 1rem;
+   font-family: "Fontawesome" !important;
+   font-style: normal;
+ }
+
+
+ .contact-pinterest {
+//   // color: #EE3E52;
+  color:colors(resPinterest);
+   margin: 10px;
+ }
+
+/*============ .  icon  bloc footer============*/
+
+ .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+   align-items: center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+ }
+
+ .icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  // padding: 15px 20px;
+  // display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  // left: 65%;
+  margin: 0 1rem 1rem 0;
+}
+
+
+
+ .contact-icons {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+ }
+
+
+
+.footer-left .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+
+		.footer-icons{
+			display: flex;
+			align-items: center;
+	   		justify-content: center;
+			flex-wrap: wrap;
+			//  width: 50%;
+		}
+
+
+
+
+
+
+		span{
+	color: color(texte);
+	font-family: font(title);
+	font-size: 1rem;
+
+  }
+
+  .left-contact .footer-icons {
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin:10px;
+
+}
+
+// .footer-left {
+//   background: #362953;
+//   width: 30%;
+//   margin-right: 2rem;
+//   margin-left: 10px;
+//   padding-bottom: 1rem;
+// }
+
+
+
+
+
+
+.contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-rect{
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  padding: 10px 20px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+
+  &:active, &:visited, &:hover{
+    color: white;
+  }
+}
+
+ .twitter::before{
+  content:'\f099';
+   font-size: 1.5em;
+ }
+
+ .instagram::before{
+  content:'\f16d';
+  font-size: 1.5em;
+}
+
+
+
+
+
+  // content:'\f4ad';
+
+
+
+
+  // content:'\f1e0';
+
+
+  .contact-instagram::before {
+    content: "";
+    font-size: 1.5em;
+    color: #D62976;
+}
+
+
+
+
+
+
+
