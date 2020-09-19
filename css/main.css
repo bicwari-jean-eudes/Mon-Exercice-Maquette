@@ -551,6 +551,7 @@ header {
   flex-direction: column;
   width: 100%;
   width: 1200px;
+  margin: auto;
 }
 
 .header-contaire {
@@ -622,7 +623,7 @@ header {
 }
 
 .carousel {
-  background-image: url(../img/photos/8.jpeg);
+  background-image: url(../img/photos/10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
